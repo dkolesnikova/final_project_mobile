@@ -35,7 +35,7 @@ public class LocalMobileDriver implements WebDriverProvider {
         options.setAutomationName(ANDROID_UIAUTOMATOR2)
                 .setPlatformName(ANDROID)
                 .setDeviceName("RFCR90ZMNQP")
-                .setPlatformVersion("13.0")
+                .setPlatformVersion("11.0")
                 .setApp(getAppPath())
                 .setAppPackage("org.wikipedia.alpha")
                 .setAppActivity("org.wikipedia.main.MainActivity");

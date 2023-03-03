@@ -14,7 +14,7 @@ public interface RemoteConfig extends Config {
     String password();
 
     @Key("appUrl")
-    @DefaultValue("bs://e3180730e2ec0f49dd59a92134d9603e41c477c0")
+    @DefaultValue("bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c")
     String appUrl();
 
     @Key("device")
@@ -22,7 +22,7 @@ public interface RemoteConfig extends Config {
     String device();
 
     @Key("osVersion")
-    @DefaultValue("9.0")
+    @DefaultValue("11.0")
     String osVersion();
 
     @Key("baseUrl")
