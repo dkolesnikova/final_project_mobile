@@ -32,6 +32,7 @@ public class BrowserstackMobileDriver implements WebDriverProvider {
         mutableCapabilities.setCapability("build", "mobile-tests-build-1");
         mutableCapabilities.setCapability("browserstack.networkLogs", "true");
         mutableCapabilities.setCapability("name", "mobile_tests");
+        mutableCapabilities.setCapability("remoteUrl", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
 
         return new RemoteWebDriver(getBrowserstackUrl(), mutableCapabilities);
     }
