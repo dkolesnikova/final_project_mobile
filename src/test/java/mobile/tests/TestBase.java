@@ -1,7 +1,6 @@
 package mobile.tests;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import mobile.drivers.BrowserstackMobileDriver;
 import mobile.drivers.LocalMobileDriver;

@@ -1,12 +1,11 @@
 package mobile.config;
 
-import org.aeonbits.owner.Config;
-
-@Config.Sources({
+@org.aeonbits.owner.Config.LoadPolicy(org.aeonbits.owner.Config.LoadType.MERGE)
+@org.aeonbits.owner.Config.Sources({
         "classpath:browserstack.properties"
 })
 
-public interface RemoteConfig extends Config {
+public interface Config extends org.aeonbits.owner.Config {
 
 
     @Key("username")
