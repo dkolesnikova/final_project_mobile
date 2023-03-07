@@ -1,14 +1,10 @@
-## Проект по автоматизации тестирования (mobile)
-<a name="Ссылка"></a>
-<p align="center">
-<img title="Wikipedia" src="images/screens/wiki-logo2.png">
-</p>
+# Дипломный проект по тестирования мобильного приложения [Wikipedia](https://github.com/dkolesnikova/final_project_mobile)
 
 ## :maple_leaf: Содержание:
 
 - Технологии и инструменты
 - Список проверок, реализованных в тестах
-- Запуск тестов (сборка в Jenkins)
+- Запуск тестов 
 - Allure-отчет
 - Интеграция с Allure TestOps
 - Интеграция с Atlassian Jira
@@ -45,15 +41,6 @@
 1. Запуск с командной строки: gradle clean test -DdeviceHost=mobile
 2. Получение отчёта: gradle allureServe
 
-###  Настройка Jenkins и удаленный запуск в Browserstack:
-1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/C16-NazilyaMullagildina_mobile-tests/">проект</a>
-
-![This is an image](/images/screens/mobile-Jenk-Sobrat-new.png)
-
-2. Выбрать пункт **Собрать с параметрами**
-3. В поля LOGIN и PASSWORD ввести BROWSERSTACK_USERNAME и BROWSERSTACK_ACCESS_KEY
-4. Нажать **Собрать**
-5. Результат запуска сборки можно посмотреть в отчёте Allure
 
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/C16-NazilyaMullagildina_mobile-tests/10/allure/">Allure report</a>
 

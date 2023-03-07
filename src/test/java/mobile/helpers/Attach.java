@@ -10,7 +10,6 @@ import java.nio.charset.StandardCharsets;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 public class Attach {
-    private static String VIDEO_URL = "https://selenoid.autotests.cloud/video/";
 
     @Attachment(value = "{attachName}", type = "image/png")
     public static byte[] screenshotAs(String attachName) {

@@ -9,8 +9,12 @@ import org.aeonbits.owner.Config;
 public interface RemoteConfig extends Config {
 
 
-    String username();
+    @Key("username")
+    @DefaultValue("asdasdqwdffsfdwe_FJixVj")
+    String userName();
 
+    @Key("password")
+    @DefaultValue("Lstx5wXmrYFxG5o5G46S")
     String password();
 
     @Key("appUrl")
