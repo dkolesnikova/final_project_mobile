@@ -1,6 +1,6 @@
 # Дипломный проект по тестирования мобильного приложения [Wikipedia](https://github.com/dkolesnikova/final_project_mobile)
 
-## :maple_leaf: Содержание:
+## :sunflower: Содержание:
 
 - Технологии и инструменты
 - Список проверок, реализованных в тестах
@@ -9,7 +9,7 @@
 - Уведомление в Telegram о результатах прогона тестов
 
 
-## :maple_leaf: Технологии и инструменты
+## :sunflower: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>
@@ -28,12 +28,12 @@
 <a href="https://www.atlassian.com/ru/software/jira"><img src="images/logo/jira-logo.svg" width="50" height="50"  alt="Atlassian Jira"/></a>
 </p>
 
-## :maple_leaf: Список проверок, реализованных в автотестах
+## :sunflower: Список проверок, реализованных в автотестах
 
 - [x] Проверка элементов навигационного меню
 
 
-## :maple_leaf: Запуск тестов
+## :sunflower: Запуск тестов
 
 ###  Локальный запуск на эмуляторе:
 1. Запуск с командной строки: gradle clean test -DdeviceHost=mobile
