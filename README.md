@@ -6,10 +6,8 @@
 - Список проверок, реализованных в тестах
 - Запуск тестов 
 - Allure-отчет
-- Интеграция с Allure TestOps
-- Интеграция с Atlassian Jira
 - Уведомление в Telegram о результатах прогона тестов
-- Видео пример прохождения тестов
+
 
 ## :maple_leaf: Технологии и инструменты
 
@@ -42,7 +40,7 @@
 2. Получение отчёта: gradle allureServe
 
 
-## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/C16-NazilyaMullagildina_mobile-tests/10/allure/">Allure report</a>
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" >Allure report</a>
 
 ###  Главное окно
 <p align="center">
@@ -60,43 +58,11 @@
 <img title="Allure Graphics" src="images/screens/mobile-allure-graph.png">
 </p>
 
-## <img src="images/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/1893/dashboards">Allure TestOps</a>
-
-### Dashboard с результатами тестирования
-<p align="center">
-<img title="Allure Graphics" src="images/screens/mobile-ATO-main-dashb.png">
-</p>
-
-### Пример отчёта выполнения одного из автотестов
-<p align="center">
-<img title="Allure Graphics" src="images/screens/mobile-ATO-TK-sample.png">
-</p>
-
-
-### Настроен запуск из Allure TestOps выборочных тест-кейсов
-<p align="center">
-<img title="Allure Graphics" src="images/screens/mobile-run2-TK.png">
-</p>
-
-### Формируется Launch, происходит автоматический запуск в Jenkins только отмеченных тест-кейсов
-<p align="center">
-<img title="Allure Graphics" src="images/screens/mobile-run2-launch.png">
-</p>
-
-## <img src="images/logo/jira-logo.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-541">Atlassian Jira</a>
-<p align="center">
-<img title="Jira" src="images/screens/mobile-Jira.png">
-</p>
 
 ## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram о результатах прогона тестов
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screens/mobile-telegram.png" >
-</p>
-
-## <img src="images/logo/browserstack.svg" width="25" height="25"  alt="Browserstack"/></a> Пример видео прохождения теста в Browserstack
-<p align="center">
-<img title="Browserstack Video" src="images/video/video-br-share.gif"alt="video2">
 </p>
 
 [Вернуться к оглавлению ⬆](#Ссылка)
