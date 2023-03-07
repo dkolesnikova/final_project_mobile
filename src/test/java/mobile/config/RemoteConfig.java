@@ -29,6 +29,14 @@ public interface RemoteConfig extends Config {
     @DefaultValue("http://hub.browserstack.com/wd/hub")
     String baseUrl();
 
+    @Key("remoteUrl")
+    @DefaultValue("https://user1:1234@selenoid.autotests.cloud/wd/hub")
+    String remoteUrl();
+
+    @Key("deviceHost")
+    @DefaultValue("d15b38392255")
+    String deviceHost();
+
 
 
 
